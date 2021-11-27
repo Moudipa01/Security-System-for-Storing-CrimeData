@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Crime Data Encryption</title>
+</head>
+	<style>
+		body {
+			font-family: Arial;
+		}
+
+		#p1 {
+			position: fixed;
+			width: 100%;
+			height: 8%;
+			top: -28px;
+			left: 0;
+			background-color: #4B5FF5;
+			color: white;
+			opacity: 1;
+			padding-top: 15px;
+			padding-left: 250px;
+			font-size: 250%;
+		}
+		#p2 {
+			position: absolute;
+			width: 300px;
+			height: 350px;
+			top: 250px;
+			left: 650px;
+			background-color: #F3F3F3;
+			border-radius: 5%;
+			border: 1px solid #4B5FF5;
+			z-index: 2;
+		}
+
+		#p3 {
+			position: relative;
+			background-color: #F3F3F3;
+			color: #4B5FF5;		
+			top: 12px;
+			left: 10px;	
+			width: 89%;
+			border-radius: 50% 50% 0% 0%;
+			border-bottom: 1px solid;
+			font-size: 150%;
+			padding-left: 15px;
+			padding-bottom: 5px;
+		}
+
+		#p4 {
+			position: relative;
+			top: 15%;
+			left: 3%;
+		}
+
+		input[type=text], input[type=password] {
+			position: relative;
+			top: 60%;
+  			width: 90%;
+  			padding: 12px 20px;
+  			margin: 8px 0;
+  			border: 1px solid #f3f3f3;
+			margin-left: 10px;
+			margin-right: 10px;
+  			border-radius: 2px;
+  			box-sizing: border-box;
+		}
+
+		input[type=submit] {
+			position: relative;
+			width: 90%;
+			align-content: center;
+			padding: 10px 0 10px 0;
+			display: inline-block;
+			border-radius: 3px;
+			background-color: #4B5FF5;
+			margin-left: 5px;
+			margin-top: 30px;
+			margin-right: 10px;
+			box-sizing: border-box;
+		}
+
+	</style>
+
+<body>
+	<h1 id="p1">Company name</h1>
+	<div id="p2">
+		<div id="p3">Login Details</div>
+		<div id="p4">
+			<form action="">
+				<label for="loginid">Login ID</label>
+				<input type="text" name="loginid" placeholder="Enter your Login ID">
+
+				<label for="password">Password</label>
+				<input type="password" name="password">
+
+				<input type="submit" name="Submit">
+			</form>
+		</div>
+	</div>
+
+</body>
+</html>
