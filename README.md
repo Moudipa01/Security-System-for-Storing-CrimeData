@@ -61,7 +61,7 @@ Note: Ensure that both the sending and receiving organizations have shared the n
 
 ## Contributors
 
-The Security System for Storing Crime Data project was developed by [Your Name] and [Additional Contributors]. We welcome any feedback, suggestions, or contributions to enhance the project. You can reach us at [email address] or [website URL].
+The Security System for Storing Crime Data project was developed by [Moudipa Jana]. I welcome any feedback, suggestions, or contributions to enhance the project. 
 
 ## License
 
